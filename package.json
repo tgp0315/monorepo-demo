@@ -1,0 +1,20 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "web:dev": "pnpm run -C web dev",
+    "web:build": "pnpm run -C web build",
+    "web:preview": "pnpm run -C web preview",
+    "docs:dev": "pnpm run -C docs docs:dev",
+    "docs:build": "pnpm run -C docs docs:build",
+    "docs:preview": "pnpm run -C docs docs:preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
